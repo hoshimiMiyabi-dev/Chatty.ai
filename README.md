@@ -85,6 +85,20 @@ Be polite, engaging, and direct while adapting to the user's tone.
 ```
 python main.py
 ```
+# Bot commands:
+* Commands Reference
+Chat Channels (Admin / Owner)
+/addchat - Authorizes current channel for AI responses.
+/removechat - Revokes AI listening in current channel.
+
+* System & Visuals
+-ping | /ping - Renders latency metrics status card.
+-stats | /stats - Renders uptime and API usage card.
+-usercard | /usercard - Generates user profile card.
+
+* Owner Management
+-prompt [text] - Updates system prompt dynamically.
+-model [core|vision] [id] - Updates Groq model string.
 
 
 # License
