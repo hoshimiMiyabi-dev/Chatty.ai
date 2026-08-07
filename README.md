@@ -36,7 +36,33 @@ A fast, modular Discord AI bot with multimodal vision support, persistent local 
 └── requirements.txt   # Python dependency list
 ```
 
+# Setup & Installation
 
+### 1. Prerequisites
+
+* Python 3.10 or higher
+* Discord Bot Token
+* Groq API Key
+
+# 2. Repository Setup
+
+```
+# Clone repository
+git clone
+https://github.com/user/chatty-ai
+cd chatty-ai
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+* requirements are:
+ ```
+discord.py>=2.3.2
+groq>=0.9.0
+pillow>=10.0.0
+python-dotenv>=1.0.0
+```
 
 # License
 
