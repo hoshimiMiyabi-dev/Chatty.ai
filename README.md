@@ -49,8 +49,8 @@ A fast, modular Discord AI bot with multimodal vision support, persistent local 
 ```
 # Clone repository
 git clone
-https://github.com/user/chatty-ai
-cd chatty-ai
+https://github.com/hoshimiMiyabi-dev/Chatty.ai.git
+cd chatty-ai.git
 
 # Install dependencies
 pip install -r requirements.txt
@@ -63,6 +63,29 @@ groq>=0.9.0
 pillow>=10.0.0
 python-dotenv>=1.0.0
 ```
+
+# 3. Environment Configuration
+Create a .env file in the root directory:
+```
+DISCORD_TOKEN=your_bot_token_here
+GROQ_API_KEY=your_groq_key_here
+OWNER_ID=your_discord_id_here
+```
+
+# 4. Custom System Prompt
+Configure your base system prompt inside sys_prompt.txt:
+```
+You are a helpful, intelligent, and versatile AI assistant. 
+Provide accurate, clear, and concise responses. 
+Be polite, engaging, and direct while adapting to the user's tone.
+```
+
+# 5. Running the bot
+* after completing all the steps above start the bot
+```
+python main.py
+```
+
 
 # License
 
